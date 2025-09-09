@@ -127,7 +127,7 @@ img {
   color: white;
 }
 
-.hero-section .hero-details .button:hover,
+.hero-section .hero-details .button:,
 .hero-section .hero-details .contact-us {
   color: var(--white-color);
   border-color: var(--white-color);
@@ -713,7 +713,7 @@ header .navbar {
 
       .navbar .nav-menu .nav-link {
         padding: 10px 18px;
-        color: var(--dark-color);
+        color: white;
         font-size: var(--font-size-m);
         border-radius: var(--border-radius-m);
       }
