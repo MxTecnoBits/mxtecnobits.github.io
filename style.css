@@ -946,7 +946,7 @@ header .navbar {
         flex-direction: column;
         align-items: center;
         padding-top: 100px;
-        background: var(--white-color);
+        background: var(--bckground-color);
         transition: left 0.2s ease;
           }
 
