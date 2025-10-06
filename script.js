@@ -84,6 +84,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
+const closeButton = document.getElementById('menu-close-button');
+const navItem1 = document.getElementById('nav-link1');
+const navItem2 = document.getElementById('nav-link2');
+const navItem3 = document.getElementById('nav-link3');
+const navItem4 = document.getElementById('nav-link4');
+const navItem5 = document.getElementById('nav-link5');
+
+
+navItem1.addEventListener('click', function() {
+	closeButton.click();
+}, 1000);
+
+navItem2.addEventListener('click', function() {
+	closeButton.click();
+}, 1000);
+
+navItem3.addEventListener('click', function() {
+	closeButton.click();
+}, 1000);
+
+navItem4.addEventListener('click', function() {
+	closeButton.click();
+}, 1000);
+
+navItem5.addEventListener('click', function() {
+	closeButton.click();
+}, 1000);
 
 
 
