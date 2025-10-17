@@ -12,41 +12,41 @@ menuCloseButton.addEventListener("click", () => {
 });
 
 
-//document.getElementById('columna3d').addEventListener('click', function() {
+document.getElementById('columna3d').addEventListener('click', function() {
     // Get the target section element
-//    const targetSection = document.getElementById('section-3d');
+    const targetSection = document.getElementById('section-3d');
 
     // Scroll to the target section
-//    if (targetSection) {
-//        targetSection.scrollIntoView({
-//            behavior: 'smooth' // For smooth scrolling animation
-//        });
-//    }
-//});
+    if (targetSection) {
+        targetSection.scrollIntoView({
+            behavior: 'smooth' // For smooth scrolling animation
+        });
+    }
+});
 
-//document.getElementById('columnaHospital').addEventListener('click', function() {
+document.getElementById('columnaHospital').addEventListener('click', function() {
     // Get the target section element
-//    const targetSection = document.getElementById('section-hospital');
+    const targetSection = document.getElementById('section-hospital');
 
     // Scroll to the target section
-//    if (targetSection) {
-//        targetSection.scrollIntoView({
-//            behavior: 'smooth' // For smooth scrolling animation
-//        });
-//    }
-//});
+    if (targetSection) {
+        targetSection.scrollIntoView({
+            behavior: 'smooth' // For smooth scrolling animation
+        });
+    }
+});
 
-//document.getElementById('columnaComputers').addEventListener('click', function() {
+document.getElementById('columnaComputers').addEventListener('click', function() {
     // Get the target section element
-//    const targetSection = document.getElementById('computers-section');
+    const targetSection = document.getElementById('computers-section');
 
     // Scroll to the target section
-//    if (targetSection) {
-//        targetSection.scrollIntoView({
-//            behavior: 'smooth' // For smooth scrolling animation
-//        });
-//    }
-//});
+    if (targetSection) {
+        targetSection.scrollIntoView({
+            behavior: 'smooth' // For smooth scrolling animation
+        });
+    }
+});
 
 
 let anims = [...document.querySelectorAll("[anim]")];
