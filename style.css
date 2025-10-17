@@ -14,7 +14,7 @@ html {
 }
 
 main {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 :root {
@@ -79,278 +79,33 @@ img {
                       /* Hero section styling */
 
 .hero-section {
+  padding-top: 80px;
+  /*
+  height: 1200px;
   max-height: 1200px;
+  
   background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--primary-color);
+  */
   background-color: #252925;
-
 }
 
-.hero-section .section-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+.hero-section .h-content {
   color: var(--white-color);
 }
 
-.hero-section .section-content img {
-   border-width: 2px;
-   box-shadow: #62aa5f 0 0 20px;
+.hero-section .h-content {
 }
 
-.hero-section .section-content .details-container {
-  align-items: center;
-  justify-content: center;
-  display: flex;
+.hero-section .h-content .title {
+  color: #dc3545;
 }
 
-.hero-section .hero-details {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-section .hero-details .subtitle {
-  align-items: center;
-  justify-content: center;
-  font-size: var(--font-size-xxl);
-  color: var(--secondary-color);
-}
-
-.hero-section .hero-details .description {
-  justify-content: center;
-  margin: 24px 0 40px;
-  font-size: var(--font-size-m);
-  color: white;
-}
-
-.hero-section .hero-details .button:hover,
-.hero-section .hero-details .contact-us {
-  color: var(--white-color);
-  border-color: var(--white-color);
-  background: transparent;
-}
-
-.hero-section .hero-details .contact-us:hover {
-  color: var(--primary-color);
-  border-color: var(--secondary-color);
-  background: var(--secondary-color);
-}
-
-.hero-section .hero-image-wrapper {
-  max-width: 500px;
-  margin-right: 30px;
-}
-
-
-
-.hero-section .section-content {
-  gap: 50px;
-  text-align: center;
-  padding:30px 20px   0px 0px;
-  flex-direction: column-reverse;
-}
-
-.hero-section .hero-details :is(.subtitle, .description) {
-  max-width: 100%;
-}
-
-.hero-section .hero-details .button {
-  justify-content: center;
-}
-                          /* Services section */
-
-.hero-section  {
-  padding-top: 20px;
-  color: var(--secondary-color);
-  background-color: #252925;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-section  .description {
-
-  padding-top: 86px;
-  padding-bottom: 35px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  color: white;
-}
-
-.hero-section  .description .title {
-  color: var(--secondary-color);
-  text-align: center;
-  font-size: var(--font-size-xxl);
-  padding: 5px;
-}
-
-.hero-section  .description .subtitle {
-  font-weight: var(--font-weight-normal);
-  font-size: var(--font-size-l);
-}
-
-.hero-section  .services-content {
-  padding: 30px 20px 20px 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-section  .services-content .columns {
-  min-width: 400px;
-  box-shadow: inset 0 1px 1px 0 hsla(0,0%,100%,.15),0 50px 100px -20px rgba(50,50,93,.3),0 30px 60px -30px rgba(0,0,0,.5),-10px 10px 60px -10px rgba(103,178,111,.3);
-  padding: 30px 30px 30px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: lightgray;
-  text-align: center;
-  max-width: 350px;
-  border-radius: 20px;
-  margin: 8px 8px 8px 8px;
-}
-
-.hero-section  .services-content .columns:hover {
-  scale:1.06;
-  box-shadow: inset 0 1px 1px 0 hsla(0,0%,100%,.60),0 50px 100px -20px rgba(50,50,93,.3),0 30px 60px -30px rgba(0,0,0,.5),-10px 10px 60px -10px rgba(103,178,111,.5);
-  border-radius: 40px 100px 40px 100px;
-
-  transition: .1s ease;
-}
-
-.hero-section .services-content .image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: var(--border-radius-circle);
-}
-
-.hero-section .services-content .columns .text {
-  padding-top: 20px;
-  color: var(--secondary-color);
-}
-
-.hero-section .services-content .columns .subtitle {
-  font-weight: var(--font-weight-normal);
-  font-size: var(--font-size-m);
-  color: white;
-}
-                                          /* Hospital section */
-
-.section-hospital {
-  padding-top: 30px;
-  background: var(--background-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  /*min-height: 650px;*/
-}
-
-.section-hospital .title {
-  color: var(--secondary-color);
-  font-size: var(--font-size-xxl);
-  padding: 0px 0 15px 0;
-}
-
-.section-hospital .subtitle {
-  color: white;
-  padding: 15px 0 15px 0;
-}
-
-.section-hospital .columns-container {
-  display: flex;
-  flex-direction: row;
-  padding: 30px 25px 0px 25px;
-  width: 100%
-}
-
-.section-hospital .columns-container .column {
-  box-shadow: inset 0 1px 1px 0 hsla(0,0%,100%,.15),0 50px 100px -20px rgba(50,50,93,.3),0 30px 60px -30px rgba(0,0,0,.5),-10px 10px 60px -10px rgba(103,178,111,.3);
-  display: flex;
-  padding-bottom: 15px;
-  padding-left: 15px; 
-  flex-direction: column;
-  margin: 0 40px 0 40px;
-  width: 100%;
-  border-radius: 20px
-
-
-
-  /*box-shadow: 0 0 20px 10px rgba(0, 150, 255, 0.7);*/
-}
-
-.section-hospital .columns-container .column .list-item {
-  color: white;
-  margin-left: 20px;
+.hero-section .h-content .subtitle{
+  color: #28a745;
 
 }
 
-.section-hospital .columns-container .column .list-item:hover {
-  text-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff; color: #fff; 
-  transition: ease;
-}
-                                       /* Computers section */
-.computers-section {
-  margin: 0 0 0 0px;
-  padding-top: 30px;
-  background: var(--background-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.computers-section .title {
-  color: var(--secondary-color);
-  font-size: var(--font-size-xxl);
-  padding: 10px 0 15px 0;
-}
-
-.computers-section .subtitle {
-  color: white;
-  padding: 15px 0 15px 0;
-}
-
-.computers-section .content {
-  padding: 0px 25px 0 25px;
-  width: 100%;
-}
-
-.computers-section .rows {
-  display: flex;
-  flex-direction: row;
-  padding: 10px 10px 0px 10px;
-}
-
-.computers-section .columns {
-  box-shadow: inset 0 1px 1px 0 hsla(0,0%,100%,.15),0 50px 100px -20px rgba(50,50,93,.3),0 30px 60px -30px rgba(0,0,0,.5),-10px 10px 60px -10px rgba(103,178,111,.3);
-  display: flex;
-  padding-bottom: 15px;
-  padding-left: 15px; 
-  flex-direction: column;
-  margin: 0 40px 0 40px;
-  width: 100%;
-  border-radius: 20px
-}
-
-.computers-section .list-item {
-  color: white;
-  margin-left: 20px;
-}
-
-.computers-section .list-item:hover {
-  text-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff; color: #fff; 
-  transition: ease;
-}   
                                         /* 3D print section */
 .section-3d {
   padding-top: 30px;
@@ -491,7 +246,6 @@ img {
 
 .contact-button:hover {
   scale: 1.1;
-  transform: .1s;
   filter: drop-shadow(50px 50px 50px rgba(10, 10, 10, 1));
 
 }
@@ -502,7 +256,6 @@ img {
   right: 10px;
   color: white;
   margin: auto;
-  padding: auto;
   /*border: 1.5px solid var(--secondary-color);*/
 }
 
@@ -641,11 +394,9 @@ header .navbar {
 
 
 .hero-section .section-content {
-        gap: 50px;
         text-align: center;
        /* padding: 30px 20px 20px;*/
         flex-direction: column-reverse;
-        text-justify: center;
 }
 
 .hero-section .hero-details :is(.subtitle, .description) {
@@ -688,7 +439,7 @@ header .navbar {
       }
 
       main {
-        padding-top: 50px;
+        padding-top: 65px;
       }
 
     .contact-button {
@@ -727,7 +478,7 @@ header .navbar {
         border-radius: var(--border-radius-m);
               }
 
-        .navbar .back-to-index:hover {
+      .navbar .back-to-index:hover {
           text-shadow: 0 0 20px #07f108, 0 0 40px #07f108, 0 0 60px #07f108; color: #07f108; 
         }
 
@@ -737,87 +488,6 @@ header .navbar {
         font-size: var(--font-size-m);
         border-radius: var(--border-radius-m);
       }
-
-      .hero-section .services-content {
-        display: flex;
-        flex-direction: column;
-        padding: none;
-      }
-
-      .hero-section .section-content {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 20px;
-      }
-
-      .hero-section .hero-details .subtitle {
-        width: 100%;
-        padding: none;
-        padding-bottom: 20px;
-        margin: none;
-      }
-
-
-      .hero-section  .services-content .columns:hover {
-        scale: none;
-        box-shadow: inset 0 1px 1px 0 hsla(0,0%,100%,.15),0 50px 100px -20px rgba(50,50,93,.3),0 30px 60px -30px rgba(0,0,0,.5),-10px 10px 60px -10px rgba(103,178,111,.3);
-        border-radius: 20px;
-        transition: none;
-      }
-
-
-      .section-hospital .columns-container {
-          display: flex;
-          flex-direction: column;
-          padding: 13px 25px 0px 25px;
-          width: 100%
-        }
-
-      .section-hospital .subtitle {
-          color: white;
-          padding: 5px 0 3px 0;
-        }
-
-        .section-hospital .columns-container .column {
-          display: flex;
-          flex-direction: column;
-          margin: 7px 40px 7px 0px;
-        }
-
-
-        .computers-section{
-          padding-top: 0px;
-        }
-
-
-        .computers-section .rows {
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 0;
-          padding-bottom: 0;
-
-        }
-
-        .computers-section .columns {
-          box-shadow: inset 0 1px 1px 0 hsla(0,0%,100%,.15),0 50px 100px -20px rgba(50,50,93,.3),0 30px 60px -30px rgba(0,0,0,.5),-10px 10px 60px -10px rgba(103,178,111,.3);
-          display: flex;
-          padding-bottom: 15px;
-          padding-left: 15px; 
-          flex-direction: column;
-          margin: 7px 0px 7px 0px;
-          width: 100%;
-          border-radius: 20px
-        }
-
-        .computers-section .title {
-          padding-bottom: 0px;
-          text-align: center;
-        }
-
-        .computers-section .subtitle {
-          color: white;
-          padding: 5px 0 3px 0;
-        }
 
         .section-3d {
           padding-top: 10px;
@@ -856,6 +526,67 @@ header .navbar {
           padding: 5px 0 3px 0;
         }
 
+
+      .hero-section {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        height: 600px;
+        animation: background-changer 20s infinite; /* 10s for total animation duration, infinite for continuous loop */
+        background-size: cover; /* Ensures the image covers the entire background */
+        background-position: center; /* Centers the background image */
+
+      }
+
+
+      .hero-section .h-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: var(--white-color);
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+              }
+
+      .hero-section .g-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: var(--white-color);
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+              }
+
+      .hero-section .h-content .title {
+        margin: 18px;
+        padding: 2px;
+        margin-right: auto;
+        margin-left: auto;
+        background: #2529255e;
+        border-radius: 10px;
+        font-size: 27px;
+        color: white;
+
+      }
+
+      .hero-section .g-content .subtitle {
+        position: relative;
+        margin: 18px;
+        padding: 2px;
+        margin-right: auto;
+        margin-left: auto;
+        background: #2529255e;
+        border-radius: 10px;
+        font-size: 27px;
+        color: white;
+        self-justify: flex-end;
+              }
+
+
       .fixed-footer {
         background: var(--background-color);
         height: 325px;
@@ -864,59 +595,9 @@ header .navbar {
         padding-bottom: 20px;
       }
 
-      .hero-section {
-          min-height: 1340px;
-
-      }
-
-      .hero-section  .services-content {
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-      }
-
-      .hero-section .hero-details {
-        margin:  0 0 0 0;
-        padding: 0 0 0 0;
-        width: 100%;
-      }
-
-
-      .hero-section  .services-content .columns {
-        min-width: 90%;
-        box-shadow: inset 0 1px 1px 0 hsla(0,0%,100%,.15),0 50px 100px -20px rgba(50,50,93,.3),0 30px 60px -30px rgba(0,0,0,.5),-10px 10px 60px -10px rgba(103,178,111,.3);
-        padding: 30px 10px 30px 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: lightgray;
-        text-align: center;
-        border-radius: 20px;
-        margin: 8px 2px 8px 2px;
-      }
-
-
-      .hero-section  .services-content .columns .text  {
-        width: 100%;
-      }
-
-
-      .section-hospital {
-        padding-top: 30px;
-        /*background-image: linear-gradient(to bottom, black, transparent 60%), url("/home/leo/Desktop/Programming/Tecno Servicios/img/Plantilla-curso-herramientas-electricas-1024x614.jpg");
-        background-size: cover;*/
-        background: var(--background-color);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-      }
-
-
       .fixed-footer .social-wrapper {
         display: flex;
         justify-content: center;
-        margin: none;
         width: 100%;
       }
 
@@ -1058,7 +739,6 @@ header .navbar {
           right: 10px;
           color: white;
           margin: auto;
-          padding: auto;
           /*border: 1.5px solid var(--secondary-color);*/
         }
 
@@ -1069,12 +749,6 @@ header .navbar {
         }
 
 }}}
-
-                         /*       oljhljhlkjhlkjhlkjhsdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff */ 
-
-
-
-
 
 
 /* Section content */
