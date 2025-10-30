@@ -125,7 +125,7 @@ buttonX.addEventListener("click", Clear_Fields);
 
 document.addEventListener("DOMContentLoaded", () => {
   // Hardcoded phone number (international format, no "+" or spaces)
-  const phone = "+527292626379"; 
+  const phone = "+525647195542"; 
 
   document.getElementById("sendBtn").addEventListener("click", () => {
     const rawText = document.getElementById("messageInput").value.trim();
